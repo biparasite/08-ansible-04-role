@@ -49,19 +49,20 @@
 
 <details> <summary>LightHouse</summary>
 
-https://github.com:biparasite/lighthouse.git
+https://github.com/biparasite/lighthouse.git
 
 </details>
 
 
 <details> <summary>Vector</summary>
 
-https://github.com:biparasite/vector.git
+https://github.com/biparasite/vector.git
 
 </details>
 
 <details> <summary>Playbook</summary>
-```
+
+```yaml
 ---
 - name: NGINX | Install
   hosts:
@@ -91,6 +92,7 @@ https://github.com:biparasite/vector.git
     - role: lighthouse
       tags: lighthouse
 ```
+
 </details>
----
+
 
